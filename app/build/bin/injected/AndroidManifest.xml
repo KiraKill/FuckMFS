@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="io.kurumi.fuckmfs"
+	android:versionCode="114514"
+	android:versionName="114514">
+
+	<uses-sdk
+		android:minSdkVersion="9"
+		android:targetSdkVersion="28"/>
+
+	<application
+		android:allowBackup="true"
+		android:label="FuckMFS">
+
+	</application>
+
+	<meta-data
+		android:name="xposedmodule"
+		android:value="true"/>
+
+	<meta-data
+		android:name="xposeddescription"
+		android:value="去他妈的取证 by HiedaNaKan"/>
+
+	<meta-data
+		android:name="xposedminversion"
+		android:value="54"/>
+
+</manifest>
+
